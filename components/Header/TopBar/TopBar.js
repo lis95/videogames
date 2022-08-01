@@ -1,4 +1,5 @@
 import { Container, Grid, Image, Input } from "semantic-ui-react";
+import Link from "next/link";
 
 export default function TopBar() {
   return (
@@ -18,5 +19,11 @@ export default function TopBar() {
 }
 
 function Logo() {
-  return <Image src="/logo.png" alt="Gaming" />;
+  return (
+    <Link href="/nr">
+      <a>
+        <Image src="/logo.png" alt="Gaming" />
+      </a>
+    </Link>
+  );
 }
