@@ -1,8 +1,8 @@
-.basic-layout{
+.basic-layout {
     min-height: 100vh;
 
-    .content{
-        background-color: black;
+    .content {
+        background-color: $background-grey-light;
         height: 100vh;
     }
 }
