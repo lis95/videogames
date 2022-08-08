@@ -1,1 +1,1 @@
-export { defgault } from "./Menu"
+export { default } from "./Menu"
